@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UberEats</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- Фиксированная стрелка "в начало" -->
+    <a class="arrow-to-top" href="#top">
+      <img src="img/shape.svg" alt="arrow" class="arrow" />
+    </a>
+    <!-- Шапка сайта -->
+    <header class="header">
+      <div class="header-container container">
+        <a href="/index.html" class="header-logo-link"
+          ><img src="img/header-logo.svg" alt="Uber Eats" class="header-logo"
+        /></a>
+        <div class="header-buttons">
+          <a href="#" class="button-login">Войти</a>
+          <a href="#" class="button-basket">
+            <img src="img/basket.svg" alt="Basket" />
+          </a>
+        </div>
+      </div>
+    </header>
+    <!-- Основной контент -->
+    <main class="main">
+      <div class="top" id="top"></div>
+      <section class="hero">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-7 col-lg-5">
+              <div class="hero-text">
+                <h2 class="hero-text-title">Трактир «Пушкин»</h2>
+                <div class="hero-text-info">
+                  <div class="price-category">
+                    <div class="hero-text-price">₽₽₽</div>
+                    <div class="hero-text-category">Европейская</div>
+                  </div>
+                  <div class="hero-text-time">40 - 50 мин</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <nav class="filter">
+        <div class="container">
+          <a href="#" class="filter-link active">Закуски</a>
+          <a href="#" class="filter-link">Салаты</a>
+          <a href="#" class="filter-link">Супы</a>
+          <a href="#" class="filter-link">Горячие блюда</a>
+          <a href="#" class="filter-link">Гарниры</a>
+          <a href="#" class="filter-link">Десерты</a>
+        </div>
+      </nav>
+      <div class="container">
+        <!-- Секция с карточками -->
+        <section class="foods">
+          <h2 class="section-title">Закуски</h2>
+          <div class="cards">
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-6">
+                <a class="card" href="#">
+                  <div class="card-text">
+                    <div class="card-titles">
+                      <div class="card-title-main">Сельдь на бородинском хлебе</div>
+                      <h4 class="card-title-add">С яйцом и огурцом</h4>
+                    </div>
+                    <div class="price">240 ₽</div>
+                  </div>
+                  <img
+                    src="img/foods/snack1.jpg"
+                    alt="Сельдь на бородинском хлебе"
+                    class="card-image"
+                  />
+                </a>
+                <!-- /.card -->
+              </div>
+              <div class="col-sm-12 col-md-12 col-lg-6">
+                <a class="card" href="#">
+                  <div class="card-text">
+                    <div class="card-titles">
+                      <h3 class="card-title-main">Соленья ассорти</h3>
+                    </div>
+                    <div class="price">320 ₽</div>
+                  </div>
+                  <img
+                    src="img/foods/snack2.jpg"
+                    alt="Соленья ассорти"
+                    class="card-image"
+                  />
+                </a>
+                <!-- /.card -->
+              </div>
+              <div class="col-sm-12 col-md-12 col-lg-6">
+                <a class="card" href="#">
+                  <div class="card-text">
+                    <div class="card-titles">
+                      <h3 class="card-title-main">Грибы маринованные</h3>
+                    </div>
+                    <div class="price">300 ₽</div>
+                  </div>
+                  <img
+                    src="img/foods/snack3.jpg"
+                    alt="Грибы маринованные"
+                    class="card-image"
+                  />
+                </a>
+                <!-- /.card -->
+              </div>
+              <div class="col-sm-12 col-md-12 col-lg-6">
+                <a class="card" href="#">
+                  <div class="card-text">
+                    <div class="card-titles">
+                      <h3 class="card-title-main">Сало домашнее с горчицей</h3>
+                    </div>
+                    <div class="price">320 ₽</div>
+                  </div>
+                  <img
+                    src="img/foods/snack4.jpg"
+                    alt="Сало домашнее с горчицей"
+                    class="card-image"
+                  />
+                </a>
+                <!-- /.card -->
+              </div>
+              <div class="col-sm-12 col-md-12 col-lg-6">
+                <a class="card" href="#">
+                  <div class="card-text">
+                    <div class="card-titles">
+                      <h3 class="card-title-main">Малосольная семга</h3>
+                    </div>
+                    <div class="price">390 ₽</div>
+                  </div>
+                  <img
+                    src="img/foods/snack5.jpg"
+                    alt="Малосольная семга"
+                    class="card-image"
+                  />
+                </a>
+                <!-- /.card -->
+              </div>
+              <div class="col-sm-12 col-md-12 col-lg-6">
+                <a class="card" href="#">
+                  <div class="card-text">
+                    <div class="card-titles">
+                      <h3 class="card-title-main">Язык говяжий с хреном</h3>
+                    </div>
+                    <div class="price">350 ₽</div>
+                  </div>
+                  <img
+                    src="img/foods/snack6.jpg"
+                    alt="Язык говяжий с хреном"
+                    class="card-image"
+                  />
+                </a>
+                <!-- /.card -->
+              </div>
+            </div>
+            <!-- ./row -->
+          </div>
+          <!-- ./cards -->
+        </section>
+      </div>
+    </main>
+    <!-- Подвал сайта -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <!-- footer-logo -->
+          <div class="col-sm-12">
+            <img
+              src="img/footer-white-logo.svg"
+              alt="Uber Eats"
+              class="footer-logo"
+            />
+          </div>
+        </div>
+        <hr class="border-bottom-line" />
+        <!-- footer-links -->
+        <div class="row">
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <div class="footer-vertical-links">
+              <select name="select" class="select">
+                <option value="russian" selected>Русский</option>
+                <option value="english">English</option>
+              </select>
+              <div class="social-text">
+                <span class="social-text-sharp">#</span>
+                <span class="social-text-title">UberEats</span>
+              </div>
+              <div class="social-links">
+                <a href="#"
+                  ><img
+                    src="img/icons/facebook-icon.png"
+                    alt="Facebook icon"
+                    class="social-link-icon"
+                /></a>
+                <a href="#"
+                  ><img
+                    src="img/icons/twitter-icon.png"
+                    alt="Twitter icon"
+                    class="social-link-icon"
+                /></a>
+                <a href="#"
+                  ><img
+                    src="img/icons/instagram-icon.png"
+                    alt="Instagram icon"
+                    class="social-link-icon"
+                /></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <div class="footer-vertical-links">
+              <a href="#" class="footer-link">Об UberEats</a>
+              <a href="#" class="footer-link">Станьте партнёром по доставке</a>
+              <a href="#" class="footer-link">Станьте парнёром-рестораном</a>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <div class="footer-vertical-links">
+              <a href="#" class="footer-link">Все города</a>
+              <a href="#" class="footer-link">Цены</a>
+              <a href="#" class="footer-link">Помощь</a>
+              <a href="#" class="footer-link">FAQs</a>
+            </div>
+          </div>
+        </div>
+        <hr class="border-bottom-line" />
+        <div class="row center-xs">
+          <div class="col-sm-12">
+            <a href="#" class="download-link-icons">
+              <img
+                src="img/icons/app-store.png"
+                alt="AppStore"
+                class="download-icon"
+              />
+            </a>
+            <a href="#" class="download-link-icons">
+              <img
+                src="img/icons/play-market.png"
+                alt="PlayMarket"
+                class="download-icon"
+              />
+            </a>
+          </div>
+        </div>
+        <hr class="border-bottom-line" />
+        <div class="row">
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <div class="copyright">© 2017 Uber Technologies Inc.</div>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <a href="#" class="copyright">Обработка персональных данных</a>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <a href="#" class="copyright">Пользовательское соглашение</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
