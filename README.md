@@ -1,2 +1,5 @@
 # uber-eats
-Learn project
+## Using technology
+- HTML
+- CSS
+- flexboxgrid2
